@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1719546713089
+  login: 1719544957925
+money: '0'
+logoutlocation:
+  world: 7fcf6566-32c0-48aa-ad70-ab91396090f3
+  world-name: world
+  x: 62.863019536964174
+  y: 69.0
+  z: -1.699999988079071
+  yaw: 59.869140625
+  pitch: -9.749593734741211
+last-account-name: PhatDauDat

@@ -15,7 +15,7 @@
  - Add Token:
     + ./ngrok authtoken 'insert authtoken here'
  - Open Port: 
-    + ./ngrok tcp <Minecraft port>
+    + ./ngrok tcp <port>
 
 ### Console: #
  - Install:

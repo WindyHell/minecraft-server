@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1719738375534
+  login: 1719738193359
+money: '0'
+logoutlocation:
+  world: 2025f12a-4e94-4319-ae0c-883ddfeebcdd
+  world-name: world
+  x: -63.13413961024702
+  y: 131.0
+  z: 102.8628688950758
+  yaw: -47.098388671875
+  pitch: 27.299917221069336
+last-account-name: Windyhell
