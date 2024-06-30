@@ -1,0 +1,1367 @@
+[10:07:17] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:07:19] [Worker-Main-1/INFO]: Loaded 7 recipes
+[10:07:20] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[10:07:20] [Server thread/INFO]: Loading properties
+[10:07:20] [Server thread/INFO]: This server is running Paper version git-Paper-388 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: fc9ee65 on ver/1.18.2)
+[10:07:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:07:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:07:20] [Server thread/INFO]: Default game type: SURVIVAL
+[10:07:20] [Server thread/INFO]: Generating keypair
+[10:07:20] [Server thread/INFO]: Starting Minecraft server on *:25578
+[10:07:20] [Server thread/INFO]: Using epoll channel type
+[10:07:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[10:07:20] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[10:07:21] [Server thread/INFO]: [Veinminer] Loading 4 libraries... please wait
+[10:07:21] [Server thread/INFO]: [Veinminer] Loaded library /workspaces/minecraft-server/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.jar
+[10:07:21] [Server thread/INFO]: [Veinminer] Loaded library /workspaces/minecraft-server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[10:07:21] [Server thread/INFO]: [Veinminer] Loaded library /workspaces/minecraft-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.7.0/kotlinx-serialization-json-1.7.0.jar
+[10:07:21] [Server thread/INFO]: [Veinminer] Loaded library /workspaces/minecraft-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.7.0/kotlinx-serialization-json-jvm-1.7.0.jar
+[10:07:21] [Server thread/INFO]: [Veinminer] Loaded library /workspaces/minecraft-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-common/2.0.0/kotlin-stdlib-common-2.0.0.jar
+[10:07:21] [Server thread/INFO]: [Veinminer] Loaded library /workspaces/minecraft-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.0/kotlinx-serialization-core-jvm-1.7.0.jar
+[10:07:21] [Server thread/INFO]: [Veinminer] Loaded library /workspaces/minecraft-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0-RC/kotlinx-coroutines-core-1.9.0-RC.jar
+[10:07:21] [Server thread/INFO]: [Veinminer] Loaded library /workspaces/minecraft-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0-RC/kotlinx-coroutines-core-jvm-1.9.0-RC.jar
+[10:07:21] [Server thread/INFO]: [Veinminer] Loaded library /workspaces/minecraft-server/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[10:07:21] [Server thread/INFO]: [Veinminer] Loaded library /workspaces/minecraft-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[10:07:21] [Server thread/INFO]: [Veinminer] Loaded library /workspaces/minecraft-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[10:07:21] [Server thread/INFO]: [Veinminer] Loaded library /workspaces/minecraft-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/Veinminer.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.lang.Class.forName(Class.java:513) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:71) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:415) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:323) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:418) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/Veinminer$Companion.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.Veinminer.<clinit>(Veinminer.kt) ~[Veinminer-2.0.7.jar:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.lang.Class.forName(Class.java:513) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:71) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:415) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:323) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:418) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/INFO]: [FastChunkPregenerator] Loading FastChunkPregenerator v2.0.9-SNAPSHOT
+[10:07:21] [Server thread/INFO]: [HoloDropsX] Loading HoloDropsX v3.0.0
+[10:07:21] [Server thread/INFO]: [OnePlayerSleep] Loading OnePlayerSleep v3.1.16
+[10:07:21] [Server thread/INFO]: [FarmProtect] Loading FarmProtect v1.0
+[10:07:21] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v8.1.0
+[10:07:21] [Server thread/INFO]: [InstantRestock] Loading InstantRestock v2.4.3
+[10:07:21] [Server thread/INFO]: [Veinminer] Loading Veinminer v2.0.7
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/config/ConfigManager.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:18) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/config/ConfigManager$EntriesMappings.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.config.ConfigManager.<clinit>(ConfigManager.kt:11) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:18) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/config/GlobalsKt.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.config.ConfigManager.<clinit>(ConfigManager.kt:30) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:18) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/config/GlobalsKt$json$1.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.config.GlobalsKt.<clinit>(Globals.kt:13) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.config.ConfigManager.<clinit>(ConfigManager.kt:30) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:18) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/config/VeinminerSettings.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.config.ConfigManager.<clinit>(ConfigManager.kt:12) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:18) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/config/VeinminerSettings$Companion.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.config.VeinminerSettings.<clinit>(VeinminerSettings.kt) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.config.ConfigManager.<clinit>(ConfigManager.kt:12) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:18) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/config/VeinminerSettings$$serializer.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.config.VeinminerSettings$Companion.serializer(VeinminerSettings.kt:5) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.config.ConfigManager.<clinit>(ConfigManager.kt:40) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:18) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$lambda$13$$inlined$anyExecutor$1.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:131) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$lambda$13$lambda$9$lambda$3$lambda$2$$inlined$anyExecutor$1.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:137) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$lambda$13$lambda$9$lambda$8$lambda$7$$inlined$anyExecutor$1.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:142) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$lambda$13$lambda$11$$inlined$anyExecutor$1.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:146) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$1$4$1.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:82) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$1$4$2.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:82) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$applySetting$lambda$17$$inlined$anyExecutor$1.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.applySetting(VeinminerCommand.kt:118) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:82) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$applyValue$$inlined$anyExecutor$1.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.applyValue(VeinminerCommand.kt:123) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.applySetting(VeinminerCommand.kt:98) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:82) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$1$4$3.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:83) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$1$4$4.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:83) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$1$4$5.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:84) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$1$4$6.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:84) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$1$4$7.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:85) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$1$4$8.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:85) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$1$4$9.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:86) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/command/VeinminerCommand$command$1$4$10.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.command.VeinminerCommand.<clinit>(VeinminerCommand.kt:86) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.load(Veinminer.kt:19) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onLoad(KSpigot.kt:57) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadPlugins(CraftServer.java:424) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:288) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:21] [Server thread/INFO]: [Drycell] Loading Drycell v1.0.7
+[10:07:21] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.0.1
+[10:07:21] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.1 is now loaded. Registering protocol transformers and injecting...
+[10:07:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[10:07:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[10:07:22] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[10:07:22] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[10:07:22] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[10:07:23] [Server thread/INFO]: [BloodMoon] Loading BloodMoon v0.8.1
+[10:07:23] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.0.1
+[10:07:23] [Server thread/INFO]: [MiniMOTD] Loading MiniMOTD v2.1.2
+[10:07:23] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.0
+[10:07:23] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
+[10:07:23] [Server thread/INFO]: [voicechat] Loading voicechat v2.5.16
+[10:07:23] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.2.0-SNAPSHOT-679
+[10:07:24] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.0.15
+[10:07:24] [Server thread/INFO]: [ChatItemDisplay] Loading ChatItemDisplay v1.9.3
+[10:07:24] [Server thread/INFO]: [GSit] Loading GSit v1.9.5
+[10:07:24] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[10:07:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.20+6667-f0f1e66
+[10:07:24] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4d9ff975]
+[10:07:24] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
+[10:07:24] [Server thread/INFO]: [AntiCheatReloaded] Loading AntiCheatReloaded v1.10.3
+[10:07:24] [Server thread/INFO]: ACR > Pool size is 1 threads
+[10:07:24] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.20.1
+[10:07:24] [Server thread/INFO]: [Graves] Loading Graves v4.9
+[10:07:24] [Server thread/INFO]: [TAB] Loading TAB v4.1.6
+[10:07:24] [Server thread/INFO]: [BetterStructures] Loading BetterStructures v1.6.11
+[10:07:24] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
+[10:07:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:07:24] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.0.7
+[10:07:24] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/VeinMinerEvent.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.Veinminer.startup(Veinminer.kt:24) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onEnable(KSpigot.kt:61) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:289) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:24] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/VeinMinerEvent$special$$inlined$listen$default$1.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.VeinMinerEvent.<init>(VeinMinerEvent.kt:100) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.startup(Veinminer.kt:24) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onEnable(KSpigot.kt:61) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:289) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:24] [Server thread/ERROR]: Fatal error trying to convert Veinminer v2.0.7:de/miraculixx/veinminer/VeinMinerEvent$special$$inlined$listen$default$2.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R2.util.Commodore.convert(Commodore.java:171) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:398) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at de.miraculixx.veinminer.VeinMinerEvent.<init>(VeinMinerEvent.kt:104) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.veinminer.Veinminer.startup(Veinminer.kt:24) ~[Veinminer-2.0.7.jar:?]
+	at de.miraculixx.kpaper.main.KPaper.onEnable(KSpigot.kt:61) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:289) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:24] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.0
+[10:07:24] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[10:07:25] [Server thread/INFO]:         __    
+[10:07:25] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[10:07:25] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[10:07:25] [Server thread/INFO]: 
+[10:07:25] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[10:07:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[10:07:26] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[10:07:26] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[10:07:26] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2039ms)
+[10:07:27] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[10:07:27] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.15
+[10:07:27] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.18.2[32;1m.[0;39m
+[10:07:27] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[10:07:27] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:07:27] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.20.1 which is not a depend or softdepend of this plugin.
+[10:07:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[10:07:27] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:07:27] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:07:27] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[10:07:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
+[10:07:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[10:07:28] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[10:07:28] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[10:07:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:07:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:07:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:07:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:07:29] [Server thread/INFO]: Preparing level "world"
+[10:07:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:07:35] [Server thread/INFO]: Time elapsed: 397 ms
+[10:07:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:07:35] [Server thread/INFO]: Time elapsed: 194 ms
+[10:07:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:07:35] [Server thread/INFO]: Time elapsed: 172 ms
+[10:07:35] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+[10:07:35] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[10:07:35] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[10:07:35] [Server thread/INFO]: [HoloDropsX] Enabling HoloDropsX v3.0.0
+[10:07:36] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v3.1.16
+[10:07:36] [Server thread/INFO]: [FarmProtect] Enabling FarmProtect v1.0
+[10:07:36] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v8.1.0
+[10:07:36] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
+[10:07:36] [Server thread/INFO]: [SilkSpawners] Mimic was not found and support is disabled
+[10:07:36] [Server thread/WARN]: [SilkSpawners] Warning! "iron-golems-can-spawn-in-air" is set to false in the paper.yml! Iron Golem farms might not work!
+[10:07:36] [Server thread/INFO]: [SilkSpawners] Loading support for v1_18_R2
+[10:07:36] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
+[10:07:36] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[10:07:36] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.4.3
+[10:07:36] [Server thread/INFO]: [Drycell] Enabling Drycell v1.0.7
+[10:07:36] [Server thread/INFO]: Drycell has initiated!
+[10:07:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.1
+[10:07:36] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18.2 (758)
+[10:07:36] [Server thread/INFO]: [BloodMoon] Enabling BloodMoon v0.8.1
+[10:07:36] [Server thread/INFO]: [BloodMoon] This plugin is still in its infancy. If you encounter a bug, please report it to https://www.spigotmc.org/threads/bloodmoon.412741/
+[10:07:36] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
+[10:07:36] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.1.2
+[10:07:37] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.16
+[10:07:37] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.18.2-R0.1
+[10:07:37] [Server thread/INFO]: [voicechat] Compatibility version 18
+[10:07:37] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[10:07:37] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[10:07:37] [Server thread/INFO]: [ChatItemDisplay] Enabling ChatItemDisplay v1.9.3
+[10:07:37] [Server thread/INFO]: [GSit] Enabling GSit v1.9.5
+[10:07:37] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[10:07:37] [Server thread/INFO]: [GSit] Link with ViaVersion successful!
+[10:07:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[10:07:37] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[10:07:37] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[10:07:37] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[10:07:37] [Server thread/INFO]: [Essentials] Using locale vi
+[10:07:38] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:07:38] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:07:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[10:07:38] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[10:07:38] [Server thread/INFO]: [AntiCheatReloaded] Enabling AntiCheatReloaded v1.10.3
+[10:07:38] [Server thread/INFO]: ACR > Running Minecraft version v1_18_R2 (supported)
+[10:07:38] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[10:07:38] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[10:07:38] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[10:07:38] [Server thread/INFO]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
+[10:07:38] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.2.0-SNAPSHOT-679.
+[10:07:38] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.2.20+6667-f0f1e66.
+[10:07:38] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[10:07:38] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[10:07:38] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
+[10:07:38] [Server thread/INFO]: [TAB] Loaded NMS hook in 116ms
+[10:07:39] [Server thread/INFO]: [TAB] Enabled in 190ms
+[10:07:39] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.6.11
+[10:07:39] [Server thread/INFO]: [BetterStructures]     ____       __  __            _____ __                  __                      
+[10:07:39] [Server thread/INFO]: [BetterStructures]    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
+[10:07:39] [Server thread/INFO]: [BetterStructures]   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
+[10:07:39] [Server thread/INFO]: [BetterStructures]  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
+[10:07:39] [Server thread/INFO]: [BetterStructures] /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
+[10:07:39] [Server thread/INFO]: [BetterStructures] Initialized version 1.6.11!
+[10:07:40] [Server thread/WARN]: Schematic was made in a newer Minecraft version (3105 > 2975). Data may be incompatible.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_floatingcave_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_floatingcave_barren.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_throneroom_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_throneroom_nether.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_surfacedungeon_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_surfacedungeon_barren.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_hiddendungeon_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_hiddendungeon_tundra.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_surfacedungeon_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_surfacedungeon_tundra.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_floatingcave_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_floatingcave_grassland.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_hiddendungeon_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_hiddendungeon_barren.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_hiddendungeon_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_hiddendungeon_end.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_teetharena_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_teetharena_end.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_hiddendungeon_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_hiddendungeon_desert.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_tower_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_tower_nether.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_teetharena_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_teetharena_tundra.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_tower_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_tower_desert.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_floatingcave_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_floatingcave_tundra.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_surfacedungeon_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_surfacedungeon_grassland.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_hiddendungeon_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_hiddendungeon_grassland.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_circletemple_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_circletemple_tundra.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_floatingcave_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_floatingcave_desert.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_watertubes_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_watertubes_nether.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_watertubes_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_watertubes_grassland.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_tower_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_tower_barren.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_tower_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_tower_tundra.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_surfacedungeon_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_surfacedungeon_nether.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_floatingcave_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_floatingcave_nether.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_surfacedungeon_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_surfacedungeon_desert.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_watertubes_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_watertubes_barren.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_flagship_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_flagship_grassland.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_throneroom_deepunderground.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_throneroom_deepunderground.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_throneroom_dripstone.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_throneroom_dripstone.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_throneroom_lush.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_throneroom_lush.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_teetharena_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_teetharena_grassland.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_circletemple_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_circletemple_end.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_throneroom_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_throneroom_end.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_watertubes_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_watertubes_desert.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_watertubes_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_watertubes_tundra.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_hiddendungeon_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_hiddendungeon_nether.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_watertubes_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_watertubes_end.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_floatingcave_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_floatingcave_end.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_circletemple_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_circletemple_grassland.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_tower_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_tower_end.yml will not be used.
+[10:07:41] [Server thread/WARN]: [BetterStructures] betterstructures_em_throneroom_shallowunderground.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:41] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_throneroom_shallowunderground.yml will not be used.
+[10:07:42] [Server thread/WARN]: [BetterStructures] betterstructures_em_circletemple_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:42] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_circletemple_barren.yml will not be used.
+[10:07:42] [Server thread/WARN]: [BetterStructures] betterstructures_em_teetharena_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:42] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_teetharena_barren.yml will not be used.
+[10:07:42] [Server thread/WARN]: [BetterStructures] betterstructures_em_circletemple_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:42] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_circletemple_nether.yml will not be used.
+[10:07:42] [Server thread/WARN]: [BetterStructures] betterstructures_em_teetharena_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:42] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_teetharena_desert.yml will not be used.
+[10:07:42] [Server thread/WARN]: [BetterStructures] betterstructures_em_surfacedungeon_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:42] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_surfacedungeon_end.yml will not be used.
+[10:07:42] [Server thread/WARN]: [BetterStructures] betterstructures_em_teetharena_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:42] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_teetharena_nether.yml will not be used.
+[10:07:42] [Server thread/WARN]: [BetterStructures] betterstructures_em_circletemple_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:42] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_circletemple_desert.yml will not be used.
+[10:07:42] [Server thread/WARN]: [BetterStructures] betterstructures_em_tower_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://www.spigotmc.org/resources/%E2%9A%94elitemobs%E2%9A%94.40090/
+[10:07:42] [Server thread/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_tower_grassland.yml will not be used.
+[10:07:42] [Server thread/INFO]: Running delayed init tasks
+[10:07:42] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[10:07:42] [Craft Scheduler Thread - 7 - Essentials/ERROR]: Could not pass event ConsoleLogEvent to ChatItemDisplay v1.9.3
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.toString()" because "this.messageText" is null
+	at org.apache.logging.log4j.core.impl.MutableLogEvent.getFormattedMessage(MutableLogEvent.java:235) ~[log4j-core-2.17.1.jar:2.17.1]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleLogEvent.getFormattedMessage(ConsoleLogEvent.java:155) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.bingorufus.chatitemdisplay.listeners.LoggerListener.onLog(LoggerListener.java:21) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleFilter.filter(ConsoleFilter.java:37) ~[ChatItemDisplay-1.9.3.jar:?]
+	at org.apache.logging.log4j.core.filter.CompositeFilter.filter(CompositeFilter.java:590) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.filter.AbstractFilterable.isFiltered(AbstractFilterable.java:154) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:482) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:388) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:153) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:368) ~[log4j-slf4j18-impl-2.17.1.jar:2.17.1]
+	at net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl.info(WrappingComponentLoggerImpl.java:1410) ~[adventure-text-logger-slf4j-4.11.0.jar:?]
+	at net.ess3.provider.providers.PaperLoggerProvider.doTheLog(PaperLoggerProvider.java:49) ~[EssentialsX-2.20.1.jar:?]
+	at net.ess3.provider.LoggerProvider.log(LoggerProvider.java:20) ~[EssentialsX-2.20.1.jar:?]
+	at com.earth2me.essentials.Essentials.lambda$onEnable$1(Essentials.java:478) ~[EssentialsX-2.20.1.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:42] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[10:07:42] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.6.11
+[10:07:42] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Your version is 1.6.11
+[10:07:42] [Craft Scheduler Thread - 0 - ChatItemDisplay/INFO]: [ChatItemDisplay] ChatItemDisplay is up to date
+[10:07:42] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/ERROR]: Could not pass event ConsoleLogEvent to ChatItemDisplay v1.9.3
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.toString()" because "this.messageText" is null
+	at org.apache.logging.log4j.core.impl.MutableLogEvent.getFormattedMessage(MutableLogEvent.java:235) ~[log4j-core-2.17.1.jar:2.17.1]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleLogEvent.getFormattedMessage(ConsoleLogEvent.java:155) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.bingorufus.chatitemdisplay.listeners.LoggerListener.onLog(LoggerListener.java:21) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleFilter.filter(ConsoleFilter.java:37) ~[ChatItemDisplay-1.9.3.jar:?]
+	at org.apache.logging.log4j.core.filter.CompositeFilter.filter(CompositeFilter.java:590) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.filter.AbstractFilterable.isFiltered(AbstractFilterable.java:154) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:482) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:388) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:153) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:368) ~[log4j-slf4j18-impl-2.17.1.jar:2.17.1]
+	at net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl.info(WrappingComponentLoggerImpl.java:1410) ~[adventure-text-logger-slf4j-4.11.0.jar:?]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendMessage(TerminalConsoleCommandSender.java:23) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendRawMessage(TerminalConsoleCommandSender.java:18) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.command.CraftConsoleCommandSender.sendMessage(CraftConsoleCommandSender.java:24) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.skinsrestorer.bukkit.logger.BukkitConsoleImpl.sendMessage(BukkitConsoleImpl.java:30) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.JavaLoggerImpl.log(JavaLoggerImpl.java:33) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.log(SRLogger.java:83) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.info(SRLogger.java:59) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printHeader(UpdateCheckerGitHub.java:139) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printUpToDate(UpdateCheckerGitHub.java:114) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:105) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/ERROR]: Could not pass event ConsoleLogEvent to ChatItemDisplay v1.9.3
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.toString()" because "this.messageText" is null
+	at org.apache.logging.log4j.core.impl.MutableLogEvent.getFormattedMessage(MutableLogEvent.java:235) ~[log4j-core-2.17.1.jar:2.17.1]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleLogEvent.getFormattedMessage(ConsoleLogEvent.java:155) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.bingorufus.chatitemdisplay.listeners.LoggerListener.onLog(LoggerListener.java:21) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleFilter.filter(ConsoleFilter.java:37) ~[ChatItemDisplay-1.9.3.jar:?]
+	at org.apache.logging.log4j.core.filter.CompositeFilter.filter(CompositeFilter.java:590) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.filter.AbstractFilterable.isFiltered(AbstractFilterable.java:154) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:482) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:388) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:153) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:368) ~[log4j-slf4j18-impl-2.17.1.jar:2.17.1]
+	at net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl.info(WrappingComponentLoggerImpl.java:1410) ~[adventure-text-logger-slf4j-4.11.0.jar:?]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendMessage(TerminalConsoleCommandSender.java:23) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendRawMessage(TerminalConsoleCommandSender.java:18) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.command.CraftConsoleCommandSender.sendMessage(CraftConsoleCommandSender.java:24) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.skinsrestorer.bukkit.logger.BukkitConsoleImpl.sendMessage(BukkitConsoleImpl.java:30) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.JavaLoggerImpl.log(JavaLoggerImpl.java:33) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.log(SRLogger.java:83) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.info(SRLogger.java:59) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printHeader(UpdateCheckerGitHub.java:140) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printUpToDate(UpdateCheckerGitHub.java:114) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:105) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/ERROR]: Could not pass event ConsoleLogEvent to ChatItemDisplay v1.9.3
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.toString()" because "this.messageText" is null
+	at org.apache.logging.log4j.core.impl.MutableLogEvent.getFormattedMessage(MutableLogEvent.java:235) ~[log4j-core-2.17.1.jar:2.17.1]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleLogEvent.getFormattedMessage(ConsoleLogEvent.java:155) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.bingorufus.chatitemdisplay.listeners.LoggerListener.onLog(LoggerListener.java:21) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleFilter.filter(ConsoleFilter.java:37) ~[ChatItemDisplay-1.9.3.jar:?]
+	at org.apache.logging.log4j.core.filter.CompositeFilter.filter(CompositeFilter.java:590) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.filter.AbstractFilterable.isFiltered(AbstractFilterable.java:154) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:482) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:388) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:153) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:368) ~[log4j-slf4j18-impl-2.17.1.jar:2.17.1]
+	at net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl.info(WrappingComponentLoggerImpl.java:1410) ~[adventure-text-logger-slf4j-4.11.0.jar:?]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendMessage(TerminalConsoleCommandSender.java:23) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendRawMessage(TerminalConsoleCommandSender.java:18) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.command.CraftConsoleCommandSender.sendMessage(CraftConsoleCommandSender.java:24) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.skinsrestorer.bukkit.logger.BukkitConsoleImpl.sendMessage(BukkitConsoleImpl.java:30) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.JavaLoggerImpl.log(JavaLoggerImpl.java:33) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.log(SRLogger.java:83) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.info(SRLogger.java:59) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printHeader(UpdateCheckerGitHub.java:141) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printUpToDate(UpdateCheckerGitHub.java:114) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:105) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/ERROR]: Could not pass event ConsoleLogEvent to ChatItemDisplay v1.9.3
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.toString()" because "this.messageText" is null
+	at org.apache.logging.log4j.core.impl.MutableLogEvent.getFormattedMessage(MutableLogEvent.java:235) ~[log4j-core-2.17.1.jar:2.17.1]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleLogEvent.getFormattedMessage(ConsoleLogEvent.java:155) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.bingorufus.chatitemdisplay.listeners.LoggerListener.onLog(LoggerListener.java:21) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleFilter.filter(ConsoleFilter.java:37) ~[ChatItemDisplay-1.9.3.jar:?]
+	at org.apache.logging.log4j.core.filter.CompositeFilter.filter(CompositeFilter.java:590) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.filter.AbstractFilterable.isFiltered(AbstractFilterable.java:154) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:482) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:388) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:153) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:368) ~[log4j-slf4j18-impl-2.17.1.jar:2.17.1]
+	at net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl.info(WrappingComponentLoggerImpl.java:1410) ~[adventure-text-logger-slf4j-4.11.0.jar:?]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendMessage(TerminalConsoleCommandSender.java:23) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendRawMessage(TerminalConsoleCommandSender.java:18) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.command.CraftConsoleCommandSender.sendMessage(CraftConsoleCommandSender.java:24) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.skinsrestorer.bukkit.logger.BukkitConsoleImpl.sendMessage(BukkitConsoleImpl.java:30) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.JavaLoggerImpl.log(JavaLoggerImpl.java:33) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.log(SRLogger.java:83) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.info(SRLogger.java:59) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printHeader(UpdateCheckerGitHub.java:152) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printUpToDate(UpdateCheckerGitHub.java:114) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:105) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/ERROR]: Could not pass event ConsoleLogEvent to ChatItemDisplay v1.9.3
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.toString()" because "this.messageText" is null
+	at org.apache.logging.log4j.core.impl.MutableLogEvent.getFormattedMessage(MutableLogEvent.java:235) ~[log4j-core-2.17.1.jar:2.17.1]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleLogEvent.getFormattedMessage(ConsoleLogEvent.java:155) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.bingorufus.chatitemdisplay.listeners.LoggerListener.onLog(LoggerListener.java:21) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleFilter.filter(ConsoleFilter.java:37) ~[ChatItemDisplay-1.9.3.jar:?]
+	at org.apache.logging.log4j.core.filter.CompositeFilter.filter(CompositeFilter.java:590) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.filter.AbstractFilterable.isFiltered(AbstractFilterable.java:154) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:482) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:388) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:153) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:368) ~[log4j-slf4j18-impl-2.17.1.jar:2.17.1]
+	at net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl.info(WrappingComponentLoggerImpl.java:1410) ~[adventure-text-logger-slf4j-4.11.0.jar:?]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendMessage(TerminalConsoleCommandSender.java:23) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendRawMessage(TerminalConsoleCommandSender.java:18) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.command.CraftConsoleCommandSender.sendMessage(CraftConsoleCommandSender.java:24) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.skinsrestorer.bukkit.logger.BukkitConsoleImpl.sendMessage(BukkitConsoleImpl.java:30) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.JavaLoggerImpl.log(JavaLoggerImpl.java:33) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.log(SRLogger.java:83) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.info(SRLogger.java:59) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printHeader(UpdateCheckerGitHub.java:153) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printUpToDate(UpdateCheckerGitHub.java:114) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:105) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/ERROR]: Could not pass event ConsoleLogEvent to ChatItemDisplay v1.9.3
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.toString()" because "this.messageText" is null
+	at org.apache.logging.log4j.core.impl.MutableLogEvent.getFormattedMessage(MutableLogEvent.java:235) ~[log4j-core-2.17.1.jar:2.17.1]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleLogEvent.getFormattedMessage(ConsoleLogEvent.java:155) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.bingorufus.chatitemdisplay.listeners.LoggerListener.onLog(LoggerListener.java:21) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleFilter.filter(ConsoleFilter.java:37) ~[ChatItemDisplay-1.9.3.jar:?]
+	at org.apache.logging.log4j.core.filter.CompositeFilter.filter(CompositeFilter.java:590) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.filter.AbstractFilterable.isFiltered(AbstractFilterable.java:154) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:482) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:388) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:153) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:368) ~[log4j-slf4j18-impl-2.17.1.jar:2.17.1]
+	at net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl.info(WrappingComponentLoggerImpl.java:1410) ~[adventure-text-logger-slf4j-4.11.0.jar:?]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendMessage(TerminalConsoleCommandSender.java:23) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendRawMessage(TerminalConsoleCommandSender.java:18) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.command.CraftConsoleCommandSender.sendMessage(CraftConsoleCommandSender.java:24) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.skinsrestorer.bukkit.logger.BukkitConsoleImpl.sendMessage(BukkitConsoleImpl.java:30) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.JavaLoggerImpl.log(JavaLoggerImpl.java:33) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.log(SRLogger.java:83) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.info(SRLogger.java:59) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printHeader(UpdateCheckerGitHub.java:157) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printUpToDate(UpdateCheckerGitHub.java:114) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:105) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/ERROR]: Could not pass event ConsoleLogEvent to ChatItemDisplay v1.9.3
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.toString()" because "this.messageText" is null
+	at org.apache.logging.log4j.core.impl.MutableLogEvent.getFormattedMessage(MutableLogEvent.java:235) ~[log4j-core-2.17.1.jar:2.17.1]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleLogEvent.getFormattedMessage(ConsoleLogEvent.java:155) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.bingorufus.chatitemdisplay.listeners.LoggerListener.onLog(LoggerListener.java:21) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleFilter.filter(ConsoleFilter.java:37) ~[ChatItemDisplay-1.9.3.jar:?]
+	at org.apache.logging.log4j.core.filter.CompositeFilter.filter(CompositeFilter.java:590) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.filter.AbstractFilterable.isFiltered(AbstractFilterable.java:154) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:482) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:388) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:153) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:368) ~[log4j-slf4j18-impl-2.17.1.jar:2.17.1]
+	at net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl.info(WrappingComponentLoggerImpl.java:1410) ~[adventure-text-logger-slf4j-4.11.0.jar:?]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendMessage(TerminalConsoleCommandSender.java:23) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendRawMessage(TerminalConsoleCommandSender.java:18) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.command.CraftConsoleCommandSender.sendMessage(CraftConsoleCommandSender.java:24) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.skinsrestorer.bukkit.logger.BukkitConsoleImpl.sendMessage(BukkitConsoleImpl.java:30) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.JavaLoggerImpl.log(JavaLoggerImpl.java:33) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.log(SRLogger.java:83) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.info(SRLogger.java:59) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printHeader(UpdateCheckerGitHub.java:158) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printUpToDate(UpdateCheckerGitHub.java:114) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:105) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/ERROR]: Could not pass event ConsoleLogEvent to ChatItemDisplay v1.9.3
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.toString()" because "this.messageText" is null
+	at org.apache.logging.log4j.core.impl.MutableLogEvent.getFormattedMessage(MutableLogEvent.java:235) ~[log4j-core-2.17.1.jar:2.17.1]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleLogEvent.getFormattedMessage(ConsoleLogEvent.java:155) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.bingorufus.chatitemdisplay.listeners.LoggerListener.onLog(LoggerListener.java:21) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleFilter.filter(ConsoleFilter.java:37) ~[ChatItemDisplay-1.9.3.jar:?]
+	at org.apache.logging.log4j.core.filter.CompositeFilter.filter(CompositeFilter.java:590) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.filter.AbstractFilterable.isFiltered(AbstractFilterable.java:154) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:482) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:388) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:153) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:368) ~[log4j-slf4j18-impl-2.17.1.jar:2.17.1]
+	at net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl.info(WrappingComponentLoggerImpl.java:1410) ~[adventure-text-logger-slf4j-4.11.0.jar:?]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendMessage(TerminalConsoleCommandSender.java:23) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendRawMessage(TerminalConsoleCommandSender.java:18) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.command.CraftConsoleCommandSender.sendMessage(CraftConsoleCommandSender.java:24) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.skinsrestorer.bukkit.logger.BukkitConsoleImpl.sendMessage(BukkitConsoleImpl.java:30) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.JavaLoggerImpl.log(JavaLoggerImpl.java:33) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.log(SRLogger.java:83) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.info(SRLogger.java:59) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printUpToDate(UpdateCheckerGitHub.java:115) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:105) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.0.15[0;39m
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/ERROR]: Could not pass event ConsoleLogEvent to ChatItemDisplay v1.9.3
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.toString()" because "this.messageText" is null
+	at org.apache.logging.log4j.core.impl.MutableLogEvent.getFormattedMessage(MutableLogEvent.java:235) ~[log4j-core-2.17.1.jar:2.17.1]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleLogEvent.getFormattedMessage(ConsoleLogEvent.java:155) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.bingorufus.chatitemdisplay.listeners.LoggerListener.onLog(LoggerListener.java:21) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleFilter.filter(ConsoleFilter.java:37) ~[ChatItemDisplay-1.9.3.jar:?]
+	at org.apache.logging.log4j.core.filter.CompositeFilter.filter(CompositeFilter.java:590) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.filter.AbstractFilterable.isFiltered(AbstractFilterable.java:154) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:482) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:388) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:153) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:368) ~[log4j-slf4j18-impl-2.17.1.jar:2.17.1]
+	at net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl.info(WrappingComponentLoggerImpl.java:1410) ~[adventure-text-logger-slf4j-4.11.0.jar:?]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendMessage(TerminalConsoleCommandSender.java:23) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendRawMessage(TerminalConsoleCommandSender.java:18) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.command.CraftConsoleCommandSender.sendMessage(CraftConsoleCommandSender.java:24) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.skinsrestorer.bukkit.logger.BukkitConsoleImpl.sendMessage(BukkitConsoleImpl.java:30) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.JavaLoggerImpl.log(JavaLoggerImpl.java:33) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.log(SRLogger.java:83) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.info(SRLogger.java:59) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printUpToDate(UpdateCheckerGitHub.java:116) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:105) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mfcfa8b9[0;39m
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/ERROR]: Could not pass event ConsoleLogEvent to ChatItemDisplay v1.9.3
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.toString()" because "this.messageText" is null
+	at org.apache.logging.log4j.core.impl.MutableLogEvent.getFormattedMessage(MutableLogEvent.java:235) ~[log4j-core-2.17.1.jar:2.17.1]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleLogEvent.getFormattedMessage(ConsoleLogEvent.java:155) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.bingorufus.chatitemdisplay.listeners.LoggerListener.onLog(LoggerListener.java:21) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleFilter.filter(ConsoleFilter.java:37) ~[ChatItemDisplay-1.9.3.jar:?]
+	at org.apache.logging.log4j.core.filter.CompositeFilter.filter(CompositeFilter.java:590) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.filter.AbstractFilterable.isFiltered(AbstractFilterable.java:154) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:482) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:388) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:153) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:368) ~[log4j-slf4j18-impl-2.17.1.jar:2.17.1]
+	at net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl.info(WrappingComponentLoggerImpl.java:1410) ~[adventure-text-logger-slf4j-4.11.0.jar:?]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendMessage(TerminalConsoleCommandSender.java:23) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendRawMessage(TerminalConsoleCommandSender.java:18) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.command.CraftConsoleCommandSender.sendMessage(CraftConsoleCommandSender.java:24) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.skinsrestorer.bukkit.logger.BukkitConsoleImpl.sendMessage(BukkitConsoleImpl.java:30) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.JavaLoggerImpl.log(JavaLoggerImpl.java:33) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.log(SRLogger.java:83) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.info(SRLogger.java:59) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printUpToDate(UpdateCheckerGitHub.java:120) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:105) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/ERROR]: Could not pass event ConsoleLogEvent to ChatItemDisplay v1.9.3
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.toString()" because "this.messageText" is null
+	at org.apache.logging.log4j.core.impl.MutableLogEvent.getFormattedMessage(MutableLogEvent.java:235) ~[log4j-core-2.17.1.jar:2.17.1]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleLogEvent.getFormattedMessage(ConsoleLogEvent.java:155) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.bingorufus.chatitemdisplay.listeners.LoggerListener.onLog(LoggerListener.java:21) ~[ChatItemDisplay-1.9.3.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at com.bingorufus.chatitemdisplay.util.logger.ConsoleFilter.filter(ConsoleFilter.java:37) ~[ChatItemDisplay-1.9.3.jar:?]
+	at org.apache.logging.log4j.core.filter.CompositeFilter.filter(CompositeFilter.java:590) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.filter.AbstractFilterable.isFiltered(AbstractFilterable.java:154) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:482) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:388) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:153) ~[log4j-core-2.17.1.jar:2.17.1]
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:368) ~[log4j-slf4j18-impl-2.17.1.jar:2.17.1]
+	at net.kyori.adventure.text.logger.slf4j.WrappingComponentLoggerImpl.info(WrappingComponentLoggerImpl.java:1410) ~[adventure-text-logger-slf4j-4.11.0.jar:?]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendMessage(TerminalConsoleCommandSender.java:23) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.console.TerminalConsoleCommandSender.sendRawMessage(TerminalConsoleCommandSender.java:18) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.command.CraftConsoleCommandSender.sendMessage(CraftConsoleCommandSender.java:24) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.skinsrestorer.bukkit.logger.BukkitConsoleImpl.sendMessage(BukkitConsoleImpl.java:30) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.JavaLoggerImpl.log(JavaLoggerImpl.java:33) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.log(SRLogger.java:83) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.log.SRLogger.info(SRLogger.java:59) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printFooter(UpdateCheckerGitHub.java:162) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.printUpToDate(UpdateCheckerGitHub.java:122) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:105) ~[SkinsRestorer.jar:?]
+	at net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:07:42] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[10:07:42] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[10:07:42] [Server thread/INFO]: [voicechat] Loading plugins
+[10:07:42] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[10:07:42] [Server thread/INFO]: [voicechat] Initializing plugins
+[10:07:42] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[10:07:42] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[10:07:42] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[10:07:42] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 25578
+[10:07:42] [Server thread/INFO]: Done (22.650s)! For help, type "help"
+[10:07:42] [Server thread/INFO]: Timings Reset
+[10:07:42] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] Checking for Updates ... 
+[10:07:42] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] No new version available
+[10:17:24] [Server thread/INFO]: Stopping server
+[10:17:24] [Server thread/INFO]: [TAB] Disabled in 0ms
+[10:17:24] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
+[10:17:24] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[10:17:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[10:17:24] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[10:17:24] [Server thread/INFO]: Saving players
+[10:17:24] [Server thread/INFO]: Saving worlds
+[10:17:24] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:114) ~[paper-1.18.2.jar:git-Paper-388]
+Caused by: java.io.IOException: Input/output error
+	at java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
+	... 9 more
+[10:17:24] [Thread-6/WARN]: Exception in thread "Thread-6" java.lang.NoClassDefFoundError: org/h2/api/ErrorCode
+[10:17:24] [Thread-6/WARN]: 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:475)
+[10:17:24] [Thread-6/WARN]: 	at org.h2.message.DbException.get(DbException.java:212)
+[10:17:24] [Thread-6/WARN]: 	at org.h2.mvstore.db.Store.close(Store.java:402)
+[10:17:24] [Thread-6/WARN]: 	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1261)
+[10:17:24] [Thread-6/WARN]: 	at org.h2.engine.Database.closeImpl(Database.java:1225)
+[10:17:24] [Thread-6/WARN]: 	at org.h2.engine.Database.close(Database.java:1144)
+[10:17:24] [Thread-6/WARN]: 	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+[10:17:24] [Thread-6/WARN]: 	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+[10:17:24] [Thread-6/WARN]: Caused by: java.lang.ClassNotFoundException: org.h2.api.ErrorCode
+[10:17:24] [Thread-6/WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+[10:17:24] [Thread-6/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[10:17:24] [Thread-6/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[10:17:24] [Thread-6/WARN]: 	... 8 more
+[10:17:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:17:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:17:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:17:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:17:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:17:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:17:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:17:26] [Server thread/INFO]: Flushing Chunk IO
+[10:17:26] [Server thread/INFO]: Closing Thread Pool
+[10:17:26] [Server thread/INFO]: Closing Server

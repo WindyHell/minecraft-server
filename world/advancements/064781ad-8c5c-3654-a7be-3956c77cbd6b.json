@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dripstone_caves": "2024-06-30 09:03:49 +0000",
+      "minecraft:forest": "2024-06-30 08:50:01 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}
